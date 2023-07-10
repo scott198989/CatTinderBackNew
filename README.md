@@ -1,5 +1,9 @@
 # README
 
+## from LEARN Academy -- Content
+
+Backend frame work of Cat Tinder project.  
+
 --goes in cats_spec.rb ICE BOX CHALLENGE
   # describe "PATCH /update" do
   #   it "updates a cat" do
@@ -30,3 +34,23 @@
     #         render json: cat.errors
     #     end 
     # end
+
+
+## Dependencies
+
+Rails
+
+rails install
+
+rails -v6.1.3 (--rvm to ensure correct version)
+
+bundle
+
+
+Team:
+
+Scott Tuschl 
+
+Aubrey Diehl
+
+Tucker Maclntyre
