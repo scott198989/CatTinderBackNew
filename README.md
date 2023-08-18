@@ -1,39 +1,11 @@
-# README
+## Cat Tinder Backend 
 
-## from LEARN Academy -- Content
+## Introduction
+This is the backend portion of first major project during my time as a student at LEARN Academy.  Using Ruby on Rails and PostgreSQL, we created a full stack web application; the goal was to reach full CRUD.
 
-Backend frame work of Cat Tinder project.  
+## Features
 
---goes in cats_spec.rb ICE BOX CHALLENGE
-  # describe "PATCH /update" do
-  #   it "updates a cat" do
-  #     cat_params = {
-  #       cat: {
-  #         name: 'Winston',
-  #         age: 4,
-  #         hobbies: 'hunt birds',
-  #         image: 'https://images.unsplash.com/photo-1492370284958-c20b15c692d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80'
-  #       }
-  #     }
-
-  #     patch '/cats', params: cat_params
-  #     expect(response). to have_http_status(200)
-  #     cat = Cat.age
-  #     expect(cat.age).to eq '4'
-  #   end
-  # end
-
-
-  FROM THE CONTROLLER
-     # def update
-    #     cat = Cat.find(params[:id])
-    #     cat.udpate(cat_params)
-    #     if cat.valid?
-    #         render json: cat
-    #     else 
-    #         render json: cat.errors
-    #     end 
-    # end
+Users can add, delete, and update (edit) cats
 
 
 ## Dependencies
@@ -54,3 +26,9 @@ Scott Tuschl
 Aubrey Diehl
 
 Tucker Maclntyre
+
+## Contact
+
+Thank you for checking out my first major class project!  If you would like to connect on linkedin you can do so at https://www.linkedin/in/scott-tuschl or if you would like to drop me a line, or check out some of the other projects I have done, you can do so by visiting my portfolio site at https://www.scott-tuschl.com
+
+Thank you!
