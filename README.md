@@ -10,13 +10,26 @@ Users can add, delete, and update (edit) cats
 
 ## Dependencies
 
-Rails
+Ruby version 2.7.4
 
-rails install
+If using homebrew:
 
-rails -v6.1.3 (--rvm to ensure correct version)
+brew update
 
-bundle
+brew install ruby
+
+Rails version 6.1.3
+
+brew install rails 
+
+gem install 
+
+PostgreSQL version 14
+
+brew install postgresql@14
+
+brew install bundler
+
 
 
 Team:
