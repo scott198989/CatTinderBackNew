@@ -1,47 +1,65 @@
 ## Cat Tinder Backend 
 
-## Introduction
-This is the backend portion of first major project during my time as a student at LEARN Academy.  Using Ruby on Rails and PostgreSQL, we created a full stack web application; the goal was to reach full CRUD.
+### Introduction
 
-## Features
+Hello!
 
-Users can add, delete, and update (edit) cats
+this is the backend part of my first big project at LEARN Academy. Built using Ruby on Rails and PostgreSQL, this app is all about getting to know the four main actions in web dev: Create, Read, Update, and Delete (aka CRUD).
 
+### Features
 
-## Dependencies
+- 🐱 **CRUD Operations**: Add, delete, and update those furry felines to your heart's content.
 
-Ruby version 2.7.4
+### Tech Stack and Dependencies
 
-If using homebrew:
+#### Ruby version 3.2.0
+- Update Homebrew and install Ruby:  
+  ```
+  brew update
+  brew install ruby
+  ```
 
-brew update
+#### Rails version 7.0.5
+- Install Rails:  
+  ```
+  gem install rails
+  ```
 
-brew install ruby
+#### PostgreSQL version 14
+- Get that database up:  
+  ```
+  brew install postgresql@14
+  ```
 
-Rails version 6.1.3
+#### Other Gems & Libraries
+- Puma web server
+- Importmap for JS
+- Turbo and Stimulus for that Hotwire magic
+- Jbuilder for easy JSON APIs
+- RSpec for testing
+- Firebase Admin for... well, Firebase stuff
+- Rack CORS for handling Cross-Origin Resource Sharing
 
-brew install rails 
+### Setup
+- Install gems:  
+  ```
+  bundle install
+  ```
+- Run your PostgreSQL database:  
+  ```
+  brew services start postgresql
+  ```
+- Create the database:  
+  ```
+  rails db:create
+  ```
 
-gem install 
+### Team
 
-PostgreSQL version 14
+- Scott Tuschl
+- Aubrey Diehl
+- Tucker Maclntyre
 
-brew install postgresql@14
+### Contact
 
-brew install bundler
-
-
-
-Team:
-
-Scott Tuschl 
-
-Aubrey Diehl
-
-Tucker Maclntyre
-
-## Contact
-
-Thank you for checking out my first major class project!  If you would like to connect on linkedin you can do so by clicking my linkedin on my GitHub profile page, or if you would like to drop me a line, or check out some of the other projects I have done, you can do so by visiting my portfolio site at https://www.scott-tuschl.com
-
-Thank you!
+Hey, thanks for checking out our project! If you wanna connect, hit up my LinkedIn through my GitHub profile. Want more? Check out my portfolio at [scott-tuschl.com](https://www.scott-tuschl.com).
